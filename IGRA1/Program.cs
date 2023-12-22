@@ -50,8 +50,8 @@ int geroj = int.Parse(Console.ReadLine()) - 1;
 
 while (true)
 {
-    Console.WriteLine("\n0 - Информация о всех героях \n1 - Поменять героя \n2 - Движение \n3 - Убийство \n");
-    Console.WriteLine("4 - Битва \n5 - Лечение \n6 - Полное восстановление здоровья \n7 - Смена лагеря \n8 - Информация о соём герое.\n ");
+    Console.WriteLine("\n0 - Информация о всех героях \n1 - Поменять героя \n2 - Движение \n3 - Убийство");
+    Console.Write("4 - Битва \n5 - Лечение \n6 - Полное восстановление здоровья \n7 - Смена лагеря \n8 - Информация о соём герое.\n ");
     
     Console.Write("Ввод: ");
     int dejstvie = int.Parse(Console.ReadLine());
@@ -139,7 +139,7 @@ while (true)
         }
         else
         {
-            Console.WriteLine("Введена не та координата");
+            Console.WriteLine("Ты находишься не на той координате");
         }
 
 
